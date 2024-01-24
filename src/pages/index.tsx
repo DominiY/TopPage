@@ -36,9 +36,9 @@ const Page = () => {
   }, []);
 
   return (
-    <div className="page_home">
+    <div className="pageContainer">
       <div className="page_bk"></div>
-      <div className="page_bk_cover"></div>
+      <div className="pageBgCover"></div>
       <div className="app">
         <div className="logoContianer">
           <img src={logo} className="logo" />
@@ -66,26 +66,26 @@ const Page = () => {
                 {group.list.map((item: any, index: number) => {
                   return (
                     <li className="item" key={String(index)}>
-                      <div className="item-content">
+                      <div className="itemContent">
                         {item.qrcode_url ? (
                           <Tooltip
                             placement="bottom"
                             color="#fff"
                             title={<Image src={item.qrcode_url}></Image>}
                           >
-                            <Button className="item-text">{item.name}</Button>
+                            <Button className="itemText">{item.name}</Button>
                           </Tooltip>
                         ) : (
                           <>
                             <span
-                              className="item-text"
+                              className="itemText"
                               onClick={() => tapRedirect(item.prod_url)}
                             >
                               {item.name}
                             </span>
                             {item.dev_url || item.qa_url ? (
                               <div className="multi">
-                                <div className="multi-content">
+                                <div className="multiContent">
                                   {item.dev_url ? (
                                     <span
                                       className="multi-url"

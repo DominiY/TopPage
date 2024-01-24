@@ -1,4 +1,4 @@
-.page_home {
+.pageContainer {
   .page_bk {
     position: fixed;
     left: 0;
@@ -9,7 +9,7 @@
     filter: blur(2px);
   }
 
-  .page_bk_cover {
+  .pageBgCover {
     position: fixed;
     left: 0;
     top: 0;
@@ -17,14 +17,6 @@
     height: 100vh;
     background: #000;
     opacity: 0.2;
-  }
-
-  .page_particles {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
   }
 
   ul,
@@ -97,31 +89,11 @@
     color: #333;
   }
 
-  .item .item-collection {
-    display: none;
-    position: absolute;
-    right: 2px;
-    top: 0px;
-    background: #f56c6c;
-    color: #fff;
-    width: 20px;
-    height: 40px;
-    line-height: 20px;
-  }
-
-  .item:hover .item-collection {
-    display: block;
-  }
-
-  .item.xin-item:hover {
-    background: #1c87d6;
-  }
-
-  .item .item-content {
+  .item .itemContent {
     position: relative;
   }
 
-  .item .item-text {
+  .item .itemText {
     display: block;
     line-height: 40px;
     height: 40px;
@@ -131,7 +103,7 @@
     border: 1px dashed #ddd;
   }
 
-  .item:hover .item-text {
+  .item:hover .itemText {
     color: #fff;
     background: #f56c6c;
   }
@@ -149,13 +121,13 @@
     width: 100%;
   }
 
-  .item .multi .multi-content {
+  .item .multi .multiContent {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 
-  .item .multi .multi-content .multi-url {
+  .item .multi .multiContent .multi-url {
     font-size: 13px;
     background-color: #f56c6c;
     margin: 0px 1px;
@@ -166,21 +138,6 @@
   .hot {
     width: 30px;
     position: absolute;
-  }
-
-  .xin {
-    background: #1c87d6;
-    color: #fff;
-    border-radius: 10px;
-    font-size: 12px;
-    width: 20px;
-    height: 16px;
-    line-height: 16px;
-    position: absolute;
-    display: block;
-    text-align: center;
-    right: -5px;
-    top: -5px;
   }
 
   .footer {
