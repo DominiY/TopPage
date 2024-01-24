@@ -1,0 +1,197 @@
+[
+  {
+    "name": "您公司常用的网址",
+    "list": [
+      {
+        "name": "项目管理",
+        "list": [
+          {
+            "name": "蓝湖【原型图】",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://lanhuapp.com"
+          },
+          {
+            "name": "Gitee【项目仓库】",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://gitee.com/"
+          },
+          {
+            "name": "Coding【代码仓库】",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://e.coding.net"
+          },
+          {
+            "name": "禅道【项目管理】",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://www.zentao.net"
+          },
+          {
+            "name": "TAPD【项目管理】",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://www.tapd.cn/"
+          },
+          {
+            "name": "Figma【UI设计】",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://www.figma.com/"
+          },
+          {
+            "name": "飞书【协作通讯】",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://www.feishu.cn/"
+          }
+        ]
+      },
+      {
+        "name": "公司系统",
+        "list": [
+          {
+            "name": "企业邮箱【发工资了！】",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://tel.exmail.qq.com/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "研发工具",
+    "list": [
+      {
+        "name": "三方JS库",
+        "list": [
+          {
+            "name": "Umijs【H5】",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://umijs.org/"
+          },
+          {
+            "name": "Nextjs【H5 & SSR】",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": " https://nextjs.frontendx.cn/"
+          },
+          {
+            "name": "TaroJs【小程序】",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://docs.taro.zone/docs/"
+          },
+          {
+            "name": "NestJs【Nodejs服务端】",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://nest.nodejs.cn/"
+          },
+          {
+            "name": "MoleculerJs【Nodejs服务端】",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://moleculer.services/index.html/"
+          }
+        ]
+      },
+      {
+        "name": "三方UI库",
+        "list": [
+          {
+            "name": "AntDesignUI",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://ant.design/index-cn"
+          },
+          {
+            "name": "MobileUI",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://mobile.ant.design/zh"
+          }
+        ]
+      },
+      {
+        "name": "自媒体",
+        "list": [
+          {
+            "name": "知乎",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://zhuanlan.zhihu.com/"
+          },
+          {
+            "name": "简书",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://www.jianshu.com/"
+          },
+          {
+            "name": "稀土掘金",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://juejin.cn/"
+          },
+          {
+            "name": "博客园",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://www.cnblogs.com/"
+          }
+        ]
+      },
+      {
+        "name": "工具网站",
+        "list": [
+          {
+            "name": "AI工具【作者：PHP社区】",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://www.workerman.net/ai"
+          },
+          {
+            "name": "豆包【作者：抖音】",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://www.doubao.com/"
+          },
+          {
+            "name": "RemoveBg【移除图片背景】",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://remove.bg/"
+          },
+          {
+            "name": "Processon【流程图】",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://www.processon.com/diagrams"
+          },
+          {
+            "name": "图片压缩",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://tinypng.com/"
+          }
+        ]
+      },
+      {
+        "name": "研发编辑器",
+        "list": [
+          {
+            "name": "VsCode",
+            "dev_url": "",
+            "qa_url": "",
+            "prod_url": "https://code.visualstudio.com/"
+          }
+        ]
+      }
+    ]
+  }
+]
