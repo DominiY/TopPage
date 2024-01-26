@@ -1,4 +1,8 @@
 {
+  "name": "top-page",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "TopPage is a locally-deployed fast jump solution designed to simplify the process of users quickly navigating to the resources you need in a local environment. Improve work efficiency and save time.",
   "author": "ShampooLandCoder <webnode@qq.com>",
   "scripts": {
     "dev": "umi dev",
@@ -11,6 +15,9 @@
     "antd": "^5.13.1",
     "axios": "^1.6.5",
     "umi": "^4.1.1"
+  },
+  "engines": {
+    "node": ">= 16.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.18",
